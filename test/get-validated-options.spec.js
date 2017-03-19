@@ -107,7 +107,7 @@ test('it should throw an error when departure date is missing (blank)', t => {
 test('it should throw an error when the departure date is in an invalid format', t => {
   options.from = 'MEX';
   options.to = 'TIJ';
-  options.departure = moment().format('YYYY/MM/DD', true);
+  options.departure = moment().format('YYYY/MM/DD');
 
   const error = t.throws(() => {
     fn(options);
@@ -132,7 +132,7 @@ test('it should throw an error when the return date is invalid', t => {
   options.from = 'MEX';
   options.to = 'TIJ';
   options.departure = moment().format(constants.DATETIME_DATE_FORMAT);
-  options.return = moment().format('YYYY/MM/DD', true);
+  options.return = moment().format('YYYY/MM/DD');
 
   const error = t.throws(() => {
     fn(options);
