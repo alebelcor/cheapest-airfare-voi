@@ -1,0 +1,42 @@
+{
+  "name": "cheapest-airfare-voi",
+  "version": "1.0.0",
+  "description": "Get the cheapest airfare of a Volaris flight",
+  "license": "MIT",
+  "repository": "alebelcor/cheapest-airfare-voi",
+  "author": {
+    "name": "Alejandro Beltrán",
+    "email": "alebelcor@gmail.com",
+    "url": "https://github.com/alebelcor"
+  },
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "clinton && xo && ava",
+    "watch": "ava --watch"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "dependencies": {
+    "airports": "^1.0.0",
+    "got": "^6.7.1",
+    "moment": "^2.17.1",
+    "ua-string": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "clinton": "^0.11.0",
+    "is-plain-obj": "^1.1.0",
+    "sinon": "^1.17.7",
+    "sinon-as-promised": "^4.0.2",
+    "xo": "*"
+  },
+  "xo": {
+    "space": true
+  }
+}

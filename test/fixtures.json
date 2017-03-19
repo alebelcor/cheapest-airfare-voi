@@ -1,0 +1,103 @@
+{
+  "volarisAvailability": {
+    "trips": [{
+      "flightDates": [{
+        "flightCount": 6,
+        "flights": [{
+          "fares": [{
+            "passengerFares": [{
+              "fareAmount": 3719,
+              "passengerType": "ADT",
+              "paxType": "ADT"
+            }]
+          }]
+        }, {
+          "fares": [{
+            "passengerFares": [{
+              "fareAmount": 5999,
+              "passengerType": "ADT",
+              "paxType": "ADT"
+            }]
+          }]
+        }, {
+          "fares": [{
+            "passengerFares": [{
+              "fareAmount": 3120,
+              "passengerType": "ADT",
+              "paxType": "ADT"
+            }]
+          }]
+        }, {
+          "fares": [{
+            "passengerFares": [{
+              "fareAmount": 3120,
+              "passengerType": "ADT",
+              "paxType": "ADT"
+            }]
+          }]
+        }, {
+          "fares": [{
+            "passengerFares": [{
+              "fareAmount": 3399,
+              "passengerType": "ADT",
+              "paxType": "ADT"
+            }]
+          }]
+        }, {
+          "fares": [{
+            "passengerFares": [{
+              "fareAmount": 3399,
+              "passengerType": "ADT",
+              "paxType": "ADT"
+            }]
+          }]
+        }]
+      }]
+    }, {
+      "flightDates": [{
+        "flightCount": 5,
+        "flights": [{
+          "fares": [{
+            "passengerFares": [{
+              "fareAmount": 5539,
+              "passengerType": "ADT",
+              "paxType": "ADT"
+            }]
+          }]
+        }, {
+          "fares": [{
+            "passengerFares": [{
+              "fareAmount": 5539,
+              "passengerType": "ADT",
+              "paxType": "ADT"
+            }]
+          }]
+        }, {
+          "fares": [{
+            "passengerFares": [{
+              "fareAmount": 5004,
+              "passengerType": "ADT",
+              "paxType": "ADT"
+            }]
+          }]
+        }, {
+          "fares": [{
+            "passengerFares": [{
+              "fareAmount": 10045,
+              "passengerType": "ADT",
+              "paxType": "ADT"
+            }]
+          }]
+        }, {
+          "fares": [{
+            "passengerFares": [{
+              "fareAmount": 4513,
+              "passengerType": "ADT",
+              "paxType": "ADT"
+            }]
+          }]
+        }]
+      }]
+    }]
+  }
+}
