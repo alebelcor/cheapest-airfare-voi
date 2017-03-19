@@ -2,6 +2,8 @@
 
 >️ Get the cheapest airfare of a [Volaris](https://www.volaris.com) flight
 
+[![Build Status](https://img.shields.io/travis/alebelcor/cheapest-airfare-voi/master.svg)](https://travis-ci.org/alebelcor/cheapest-airfare-voi)
+
 ## Install
 
 Ensure you have [Node.js](https://nodejs.org) version 4+ installed.
